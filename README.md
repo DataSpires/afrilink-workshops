@@ -4,7 +4,7 @@ Notebooks that demonstrate the AfriLink SDK across different problem domains. Ea
 
 | Notebook | Domain | What it does |
 |----------|--------|-------------|
-| [AfriLink Computer Vision Tutorial](AfriLink%20Computer%20Vision%20Tutorial.ipynb) | Medical imaging | YOLOv8 breast cancer lesion detection — prototype on Kaggle GPUs, scale to A100s via `client.train()`. [Read more](CV_TUTORIAL_README.md) |
+| [AfriLink Computer Vision Tutorial](AfriLink%20Computer%20Vision%20Tutorial.ipynb) | Medical Imaging | YOLOv8 breast cancer lesion detection — prototype on Kaggle GPUs, scale to A100s via `client.train()`. [Read more](CV_TUTORIAL_README.md) |
 
 ## Getting started
 
@@ -12,4 +12,4 @@ Notebooks that demonstrate the AfriLink SDK across different problem domains. Ea
 pip install afrilink-sdk
 ```
 
-All notebooks assume a [DataSpires](https://dataspires.com) account for HPC sections. Local/Kaggle GPU sections run independently.
+All notebooks assume a [DataSpires](https://dataspires.com) account for HPC sections, and can be copied and customised for any varied usecase that relies on the SDK. Local/Kaggle GPU sections run independently.
